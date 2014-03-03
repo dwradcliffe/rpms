@@ -6,8 +6,8 @@
 
 Summary: Process monitor and restart utility
 Name: monit
-Version: 5.5
-Release: 2%{?dist}
+Version: 5.6
+Release: 1%{?dist}
 License: GPLv3
 Group: Applications/Internet
 URL: http://mmonit.com/monit/
@@ -103,6 +103,9 @@ fi
 %attr(0600, root, root) %config(noreplace) %{_sysconfdir}/monit.conf
 
 %changelog
+* Mon Mar 3 2014 David Radcliffe <radcliffe.david@gmail.com> - 5.6-1
+- new upstream release
+
 * Thu Sep 19 2013 David Hrbáč <david@hrbac.cz> - 5.5-2
 - pam-devel build requirement
 
